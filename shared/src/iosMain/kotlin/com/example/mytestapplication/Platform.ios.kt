@@ -18,8 +18,6 @@ actual fun getPlatform(): Platform = IOSPlatform()
 
 @OptIn(ExperimentalForeignApi::class)
 fun YandexMetricsProfile.report(logger: Logger, tag: String) {
-    CLLocationCoordinate2DMake(1.0, 1.0)
-    WKUserScript()
     val userProfileBuilder = YMMMutableUserProfile()
     numbers.forEach {
         userProfileBuilder.apply(YMMProfileAttribute.customNumber(it.first).withValue(it.second))
