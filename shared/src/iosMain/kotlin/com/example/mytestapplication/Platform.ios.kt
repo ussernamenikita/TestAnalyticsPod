@@ -4,9 +4,7 @@ import cocoapods.YandexMobileMetrica.YMMMutableUserProfile
 import cocoapods.YandexMobileMetrica.YMMProfileAttribute
 import cocoapods.YandexMobileMetrica.YMMYandexMetrica
 import kotlinx.cinterop.ExperimentalForeignApi
-import platform.CoreLocation.CLLocationCoordinate2DMake
 import platform.UIKit.UIDevice
-import platform.WebKit.WKUserScript
 
 
 class IOSPlatform : Platform {
